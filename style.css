@@ -19,6 +19,7 @@ body {
   color: #ffffff;
   border: none;
   background: linear-gradient(177.38deg, #b564f7 8.45%, #6a2f9b 98.78%);
+  cursor: pointer;
 }
 .section-parent {
   display: flex;
@@ -120,6 +121,7 @@ nav li {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  cursor: pointer;
 }
 
 .book-demo-button {
@@ -138,6 +140,7 @@ nav li {
   text-align: left;
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
+  cursor: pointer;
 }
 
 /* ------------------- Banner Section --------------- */
@@ -541,4 +544,234 @@ nav li {
   font-style: normal;
   font-weight: 400;
   line-height: 164%; /* 26.24px */
+}
+
+/*   <!----------------------------------------------------->
+      <!-------------- Video Highlight Sections -------------> */
+#video-highlight {
+  padding-top: 80px;
+  display: flex;
+  width: 1202px;
+  margin: auto;
+  flex-direction: column;
+  align-items: center;
+  gap: 48px;
+}
+#video-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 48px;
+  align-self: stretch;
+}
+#highlight-videos {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+.video-content {
+  display: flex;
+  padding: 20px 24px 32px 24px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 12px;
+  background: #fff;
+}
+.video-title {
+  width: 334px;
+  height: 66px;
+  display: flex;
+  gap: 8px;
+}
+.video-img-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+.video-img-content p {
+  align-self: stretch;
+  color: var(--Gray-700, #344054);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* Video Categories */
+.video-categories {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 28px;
+  align-self: stretch;
+}
+.trending-categories {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 31px;
+  align-self: stretch;
+}
+.videos-topics {
+  display: flex;
+  padding: 12px 24px 24px 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 12px;
+  border-radius: 16px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+}
+
+.videos-topics h3 {
+  color: var(--Base-Black, #000);
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 164%; /* 32.8px */
+}
+.videos-topics p {
+  width: 338px;
+  color: var(--Gray-700, #344054);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* ------------------Business Video Sections--------------------------- */
+.business-title {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+#business-videos-container {
+  padding-top: 80px;
+  display: flex;
+  width: 1221px;
+  margin: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+.business-videos {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+.business-video {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 279px;
+  align-items: center;
+  gap: 20px;
+  position: relative;
+  overflow: hidden;
+}
+.business-video img {
+  width: 279px;
+  height: 326.426px;
+  flex-shrink: 0;
+  border-radius: 19.426px;
+  background: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(0, 0, 0, 0.4) 100%
+    ),
+    url(<path-to-image>) lightgray 50% / cover no-repeat;
+}
+.business-video p {
+  align-self: stretch;
+  color: var(--Gray-700, #344054);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 164%;
+}
+.video-icon {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+}
+
+/* ------------------ Personal Branding Video Sections --------------------------- */
+#branding-videos-container {
+  padding-top: 100px;
+  display: flex;
+  width: 1221px;
+  margin: auto;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 40px;
+}
+#branding-videos-section {
+  display: inline-flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* -------------------- Why Shorts Video Sections ----------------------- */
+#why-shorts-videos {
+  margin-top: 100px;
+  padding: 40px 120px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
+  background: #fff;
+}
+#why-shorts-container {
+  display: flex;
+  align-items: center;
+  gap: 48px;
+  align-self: stretch;
+}
+
+#why-shorts {
+  width: 480px;
+  height: 501px;
+}
+#why-shorts-content {
+  display: flex;
+  width: 672px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+#why-shorts-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+  align-self: stretch;
+}
+#why-shorts-texts h3 {
+  align-self: stretch;
+  color: var(--Base-Black, #000);
+  font-family: Raleway;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 124%; /* 59.52px */
+  letter-spacing: -0.48px;
+}
+
+#why-shorts-texts p {
+  align-self: stretch;
+  color: var(--Gray-700, #344054);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
 }
