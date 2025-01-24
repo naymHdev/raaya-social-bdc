@@ -16,25 +16,27 @@
   </head>
   <body>
     <!-- Header Section Start -->
-    <nav>
-      <div>
-        <img src="/assets/images/logo.png" alt="Website logo" />
-      </div>
-      <div>
-        <ul>
-          <li>Home</li>
-          <li>Services</li>
-          <li>Portfolio</li>
-          <li>Reviews</li>
-          <li>Pricing</li>
-          <li>White level</li>
-        </ul>
-      </div>
-      <div id="right-nav">
-        <button id="login-button">Login</button>
-        <button class="book-demo-button">Book a demo</button>
-      </div>
-    </nav>
+    <header>
+      <nav>
+        <div>
+          <img src="/assets/images/logo.png" alt="Website logo" />
+        </div>
+        <div>
+          <ul>
+            <li>Home</li>
+            <li>Services</li>
+            <li>Portfolio</li>
+            <li>Reviews</li>
+            <li>Pricing</li>
+            <li>White level</li>
+          </ul>
+        </div>
+        <div id="right-nav">
+          <button id="login-button">Login</button>
+          <button class="book-demo-button">Book a demo</button>
+        </div>
+      </nav>
+    </header>
 
     <!-------------------------------- Banner Section -------------------------->
     <section id="banner-section">
@@ -123,13 +125,13 @@
       <!-- ------------------------- Our Client Section ------------------------- -->
       <section id="our-clients-features">
         <div id="our-clients">
-          <div>
+          <div id="client-text">
             <h3 id="client-quantity">50+</h3>
             <p id="client-title">Our clients are featured in</p>
           </div>
           <div id="divider"></div>
           <div id="client-company-logos">
-            <div class="logo-marquee" id="logo-container">
+            <div id="logo-container">
               <div class="company-logo">
                 <img src="/assets/icons/Logomark.png" alt="" />
                 <img src="/assets/icons/Logotype.png" alt="" />
@@ -149,6 +151,162 @@
               <div class="company-logo">
                 <img src="/assets/icons/gb.png" alt="" />
                 <img src="/assets/icons/gb-typo.png" alt="" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-----------------------------All-Inclusive Creative Services------------->
+      <section id="creative-services">
+        <div class="section-parent">
+          <h2 class="section-title">
+            All-Inclusive <span class="section-color">Creative Services</span>
+          </h2>
+          <p class="section-des">
+            Our fixed monthly rate covers all your creative needs, with
+            predictable pricing, no contracts, and unlimited revisions. Explore
+            our services to find the perfect solution for your brand’s growth!
+          </p>
+        </div>
+        <div id="services-container">
+          <div id="services-contents-box">
+            <!-- Left Side Services Content -->
+            <div id="left-side-content">
+              <div id="what-we-provide">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="48"
+                  height="48"
+                  viewBox="0 0 48 48"
+                  fill="none"
+                >
+                  <g clip-path="url(#clip0_449_936)">
+                    <path
+                      d="M41.402 23.2121L40.3278 20.1602L28.7427 31.7458C27.6108 32.8799 26.1028 33.5035 24.5007 33.5035C22.8991 33.5035 21.3911 32.8799 20.2591 31.7458L11.7595 23.2461C10.6254 22.1142 10.0014 20.6062 10.0014 19.0045C10.0014 17.4024 10.6254 15.8944 11.7595 14.7626C12.8914 13.6288 14.3993 13.0048 16.001 13.0048C17.6031 13.0048 19.1111 13.6288 20.243 14.7626L24.5007 19.0184L35.9083 7.61123L35.1401 5.43128L34.7863 3.31546C34.5644 1.95944 33.6702 0.835535 32.4002 0.309345C31.1243 -0.220501 29.7006 -0.0564478 28.5826 0.74554L23.025 4.76916L17.4051 0.735321C16.2772 -0.0605725 14.8494 -0.21872 13.5813 0.31347C12.3216 0.841441 11.4355 1.96338 11.2135 3.31143L10.1256 10.0849L3.31184 11.2167C1.95807 11.4389 0.834159 12.3329 0.306188 13.6028C-0.221876 14.8768 -0.057823 16.3046 0.744071 17.4226L4.76601 22.9801L0.732071 28.5998C-0.0619478 29.7277 -0.221877 31.1577 0.310219 32.4236C0.840065 33.6835 1.95985 34.5694 3.30781 34.7917L10.0816 35.8815L11.2135 42.693C11.4336 44.045 12.3216 45.167 13.5813 45.6951C14.8513 46.2268 16.2812 46.0689 17.4193 45.2629L22.9771 41.2393L28.5826 45.2629C29.2686 45.7529 30.0665 46.0048 30.8766 46.0048C31.3903 46.0048 31.9063 45.9049 32.4002 45.6991C33.6723 45.171 34.5644 44.0472 34.7863 42.697L35.8761 35.9236L42.6876 34.7917C44.0396 34.5695 45.1597 33.6836 45.6897 32.4235C46.2218 31.1577 46.0635 29.7277 45.2575 28.5859L41.402 23.2121Z"
+                      fill="#FFC107"
+                    />
+                    <path
+                      d="M24.5009 29.5039C23.989 29.5039 23.4771 29.308 23.087 28.918L14.5874 20.4184C13.8055 19.6366 13.8055 18.3725 14.5874 17.5907C15.3696 16.8085 16.6333 16.8085 17.4154 17.5907L24.5009 24.6761L44.5857 4.59126C45.3679 3.80942 46.6317 3.80942 47.4138 4.59126C48.1956 5.37309 48.1956 6.63715 47.4138 7.41898L25.9148 28.9181C25.7293 29.104 25.5089 29.2515 25.2663 29.3521C25.0236 29.4526 24.7635 29.5042 24.5009 29.504V29.5039Z"
+                      fill="#607D8B"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_449_936">
+                      <rect width="48" height="48" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+                <h4>What We provide ?</h4>
+              </div>
+              <div class="creative-services-info">
+                <div class="creative-services">
+                  <div class="service-icon">
+                    <img src="/assets/icons/green-check.png" alt="" />
+                  </div>
+                  <div class="creative-services-content">
+                    <h2>Low-cost, high quality</h2>
+                    <p>
+                      Most agencies charge way too much. We are a lean team with
+                      streamlined workflows and a platform built from the ground
+                      up that allows us to charge much less.
+                    </p>
+                  </div>
+                </div>
+                <div class="creative-services">
+                  <div class="service-icon">
+                    <img src="/assets/icons/green-check.png" alt="" />
+                  </div>
+                  <div class="creative-services-content">
+                    <h2>Full transparency</h2>
+                    <p>
+                      Most agencies charge way too much. We are a lean team with
+                      streamlined workflows and a platform built from the ground
+                      up that allows us to charge much less.
+                    </p>
+                  </div>
+                </div>
+                <div class="creative-services">
+                  <div class="service-icon">
+                    <img src="/assets/icons/green-check.png" alt="" />
+                  </div>
+                  <div class="creative-services-content">
+                    <h2>Cancel anytime</h2>
+                    <p>
+                      We don't believe in locking you into long contracts. You
+                      are free to leave us at any time, but you will just want
+                      to stay forever.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div id="service-divider"></div>
+            <!-- Right Side Services Content -->
+            <div id="right-side-content">
+              <div class="left-content-box">
+                <div class="creative-info">
+                  <h5>5 Short form video - $99/ 1 week</h5>
+                  <p>Tailored graphic and video content packages.</p>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <circle cx="11" cy="11" r="10.5" stroke="#98A2B3" />
+                  </svg>
+                </div>
+              </div>
+              <div class="left-content-box">
+                <div class="creative-info">
+                  <h5>10 Short form video - $99/ 1 week</h5>
+                  <p>Tailored graphic and video content packages.</p>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <circle
+                      cx="11"
+                      cy="11"
+                      r="10.5"
+                      fill="purple"
+                      stroke="purple"
+                    />
+                    <path
+                      d="M7 11L10 14L15 8"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </div>
+              </div>
+              <div class="left-content-box">
+                <div class="creative-info">
+                  <h5>5 Short form video - $99/ 1 week</h5>
+                  <p>Tailored graphic and video content packages.</p>
+                </div>
+                <div>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="22"
+                    height="22"
+                    viewBox="0 0 22 22"
+                    fill="none"
+                  >
+                    <circle cx="11" cy="11" r="10.5" stroke="#98A2B3" />
+                  </svg>
+                </div>
               </div>
             </div>
           </div>
