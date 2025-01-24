@@ -162,6 +162,12 @@ nav li {
   text-underline-position: from-font;
   text-decoration-skip-ink: none;
 }
+#banner-buttons {
+  width: Hug (353px) px;
+  height: Hug (45px) px;
+  gap: 24px;
+  opacity: 0px;
+}
 .banner-book-button {
   color: #a657e7;
   border: 1px solid #a657e7;
@@ -170,5 +176,74 @@ nav li {
   padding: 8px 27px 8px 27px;
   gap: 10px;
   border-radius: 24px 24px 24px 24px;
+  opacity: 0px;
+}
+#banner-texts {
+  width: Fixed (560px) px;
+  height: Hug (396px) px;
+  top: 180px;
+  left: 120px;
+  gap: 12px;
+  opacity: 0px;
+}
+#banner-images {
+  display: flex;
+  width: Hug (610.25px) px;
+  height: Hug (387.01px) px;
+  top: 180px;
+  left: 708px;
+  gap: 20px;
+  opacity: 0px;
+}
+.banner-img {
+  width: 295.13px;
+  height: 387.01px;
+  gap: 0px;
+  opacity: 0px;
+  border-radius: 18px;
+}
+#social-icons {
+  width: 448px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-icon {
+  width: 48px;
+  height: 48px;
+  opacity: 0px;
+}
+#social-icn-title {
+  width: 448px;
+  height: 30px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+}
+
+#social-icn-container {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+
+  margin-top: 20px;
+}
+
+#social-icons-container {
+  background: #ffffff;
+  width: Hug (496px) px;
+  height: Hug (130px) px;
+  top: 604px;
+  left: 822px;
+  padding: 20px 24px 20px 24px;
+  gap: 32px;
+  border-radius: 16px 16px 16px 16px;
   opacity: 0px;
 }
