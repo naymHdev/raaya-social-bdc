@@ -766,7 +766,7 @@ nav li {
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
-  line-height: 124%; /* 59.52px */
+  line-height: 124%;
   letter-spacing: -0.48px;
 }
 
@@ -865,6 +865,7 @@ nav li {
   content: "-";
 }
 
+/* ------------------------------------- */
 /* ------------ Footer Styles----------- */
 
 footer {
@@ -879,15 +880,195 @@ footer {
 }
 #footer-container {
   display: flex;
-  max-width: 1200px;
+  width: 1200px;
+  margin: auto;
   flex-direction: column;
   align-items: center;
   gap: 40px;
   align-self: stretch;
 }
 #main-columns-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-between;
+  align-self: stretch;
+  gap: 50px;
+}
+#footer-logo-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+#footer-logo-section h2 {
+  align-self: stretch;
+  color: var(--Base-Black, #000);
+  font-family: Inter;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 132%;
+  letter-spacing: -0.48px;
+}
+#footer-logo-section h4 {
+  align-self: stretch;
+  color: var(--Base-Black, #000);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 132%; /* 23.76px */
+  letter-spacing: -0.36px;
+  text-transform: capitalize;
+}
+
+#footer-logo-section p {
+  width: 325px;
+  color: var(--Gray-700, #344054);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 164%; /* 26.24px */
+}
+#footer-buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+#footer-routes {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+}
+.quick-links {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+.quick-links h4 {
+  color: var(--Base-Black, #000);
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 132%; /* 23.76px */
+  letter-spacing: -0.36px;
+  text-transform: capitalize;
+}
+.quick-links ul {
+  list-style: none;
+}
+.quick-links ul li {
+  color: var(--Gray-700, #344054);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 212%; /* 33.92px */
+}
+
+#contact-section {
+  display: flex;
+  width: 295px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+#contact-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
   align-self: stretch;
+}
+#contact-container h4 {
+  align-self: stretch;
+  color: var(--Base-Black, #000);
+  font-family: Lato;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 30px */
+}
+#form-container {
+  display: flex;
+  width: 295px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+}
+
+#email-input {
+  display: flex;
+  padding: 8px 183px 8px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+}
+#phone-number {
+  display: flex;
+  padding: 8px 183px 8px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+}
+#textarea {
+  display: flex;
+  padding: 8px 183px 56px 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+  border-radius: 8px;
+  border: 1px solid var(--Gray-300, #d0d5dd);
+}
+.submit-button-container {
+  display: flex;
+  padding: 8px 90px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+  border-radius: 12px;
+  background: #1d1d1d;
+}
+.submit-button-container button {
+  color: var(--Base-White, #fff);
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 160%; /* 22.4px */
+  background: transparent;
+  border: none;
+}
+.submit-button-container img {
+  width: 16px;
+  height: 16px;
+  margin-top: -3px;
+}
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+}
+.footer-section p {
+  align-self: stretch;
+  color: var(--Base-Black, #000);
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 21px */
 }
