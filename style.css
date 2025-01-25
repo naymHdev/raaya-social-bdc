@@ -917,6 +917,72 @@ nav li {
   align-items: end;
   justify-content: end;
 }
+#testimonial-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+}
+.client-testimonial {
+  display: flex;
+  padding: 29px 37px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  border-radius: 14px;
+  border: 1px solid rgba(0, 159, 226, 0.33);
+  background: #fff;
+}
+.user-info-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+}
+.user-details {
+  display: flex;
+  width: 233.067px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+.user-name {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+}
+.user-name h3 {
+  color: #1b1d20;
+  text-align: right;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+}
+.user-name p {
+  color: var(--Gray-700, #344054);
+  text-align: right;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
+.say-testimonial {
+  width: 316px;
+  height: 159px;
+}
+.say-testimonial p {
+  color: var(--Gray-700, #344054);
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+}
 
 /* --------------------------------------------- */
 /* --------- FAQ Section ---------- */
