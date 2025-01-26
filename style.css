@@ -346,7 +346,6 @@ nav li {
   background: #fff;
   height: 226px;
   flex-shrink: 0;
-  border: 2px solid skyblue;
   padding: 48px 123px;
   margin-bottom: 100px;
 }
@@ -355,7 +354,8 @@ nav li {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  gap: 72px;
+  justify-items: center;
+  gap: 50px;
 }
 
 #client-text {
@@ -399,6 +399,7 @@ nav li {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 8px;
 }
 
 .company-logo {
@@ -1541,7 +1542,6 @@ footer {
     }
     #client-stories-header {
       height: 180px;
-      margin: auto;
     }
     #partners-videos {
       display: flex;
